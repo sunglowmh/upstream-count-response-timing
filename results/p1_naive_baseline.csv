@@ -1,0 +1,33 @@
+blocking,baseline,R2,spearman
+maximal upstream sets (26),train-fold mean (intercept only),0.003608152452777902,0.17737605981806723
+maximal upstream sets (26),subregion mean (k=5),0.002168525988582637,0.16074198078880564
+maximal upstream sets (26),nearest monitored station,-1.0494013632687298,0.13648112404755017
+maximal upstream sets (26),IDW-5 monitored stations,-0.3360378717415413,0.13387583519995755
+maximal upstream sets (26),nearest + spatial/system covariates,-0.007415533501115235,0.1411026037312349
+maximal upstream sets (26),IDW-5 + spatial/system covariates,-0.017087019816693028,0.1265010060451126
+maximal upstream sets (26),upstream count + covariates,0.1466158223451215,0.41227335474933374
+maximal upstream sets (26),Sigma-tau + covariates,0.11008140476289763,0.37332718971644246
+trunk segments (154),train-fold mean (intercept only),-0.0014778344516810371,-0.02829241565761619
+trunk segments (154),subregion mean (k=5),0.007975686744281396,0.09914182706704845
+trunk segments (154),nearest monitored station,-0.6494906447703017,0.17571694940350846
+trunk segments (154),IDW-5 monitored stations,-0.20424877078845238,0.24430272466825634
+trunk segments (154),nearest + spatial/system covariates,-0.03021366287160432,0.06850458148100605
+trunk segments (154),IDW-5 + spatial/system covariates,-0.02200384229494845,0.11963609435994944
+trunk segments (154),upstream count + covariates,0.11728243386293269,0.35033777107417563
+trunk segments (154),Sigma-tau + covariates,0.08761341621717589,0.2838975362424914
+spatial k-means k=27,train-fold mean (intercept only),0.001200858924450321,0.20633867624513016
+spatial k-means k=27,subregion mean (k=5),0.006443028079066382,0.14307509317295133
+spatial k-means k=27,nearest monitored station,-0.7262917058825511,0.2026997939520935
+spatial k-means k=27,IDW-5 monitored stations,-0.09248216367736561,0.2795349320427494
+spatial k-means k=27,nearest + spatial/system covariates,0.028313944572085026,0.21064692746233638
+spatial k-means k=27,IDW-5 + spatial/system covariates,0.043306366766648896,0.24517491371969255
+spatial k-means k=27,upstream count + covariates,0.13221059158764825,0.3808457247706325
+spatial k-means k=27,Sigma-tau + covariates,0.09674154642417654,0.3501482368865835
+spatial k-means k=10,train-fold mean (intercept only),0.004153499921182857,0.3246394199619539
+spatial k-means k=10,subregion mean (k=5),-0.0050256141433568935,0.10280790986250796
+spatial k-means k=10,nearest monitored station,-0.8756867657734972,0.07917135032107352
+spatial k-means k=10,IDW-5 monitored stations,-0.29977869840910154,0.14581607428262466
+spatial k-means k=10,nearest + spatial/system covariates,-0.03524250037243348,0.08549401961584165
+spatial k-means k=10,IDW-5 + spatial/system covariates,-0.022866466827275556,0.13387915308507953
+spatial k-means k=10,upstream count + covariates,0.11912450700491095,0.37363284988330336
+spatial k-means k=10,Sigma-tau + covariates,0.080143896884459,0.3323807546906474

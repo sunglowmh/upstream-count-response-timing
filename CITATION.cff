@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper it accompanies."
+title: "Upstream node count and station-level relative peak response time in an urban wastewater network"
+authors:
+  - family-names: Zheng
+    given-names: Maohui
+    affiliation: "Shanghai Institute of Disaster Prevention and Relief, Tongji University"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Jiang
+    given-names: Simin
+    affiliation: "College of Civil Engineering, Tongji University"
+  - family-names: Zhang
+    given-names: Kaibo
+    affiliation: "College of Civil Engineering, Tongji University"
+  - family-names: Liu
+    given-names: Chang
+    affiliation: "College of Civil Engineering, Tongji University"
+version: 1.0.0
+date-released: 2026-11-05
+license: MIT

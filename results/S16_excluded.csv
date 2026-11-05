@@ -1,0 +1,6 @@
+﻿scheme,beta,change_pct,w_min,w_max
+quintiles of the excluded distribution (primary),-1.638,3.2,0.45,2.88
+"fixed cuts 1,2,4,8,16,64",-1.607,5.0,0.25,2.21
+"fixed cuts 1,2,4,8,32",-1.687,0.2,0.19,2.19
+"fixed cuts 1,2,4,8,16,64,256",-1.55,8.3,0.0,2.21
+"fixed cuts 1,2,4,8",-1.667,1.5,0.66,2.19
