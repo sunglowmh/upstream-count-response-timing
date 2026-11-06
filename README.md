@@ -51,9 +51,16 @@ results/    output tables as reported in the paper
 | 08 | `08_calibration_curve.py` | local intercept recalibration against the number of local gauges, m in {0, 5, 10, 20, 40, all} (Table 3, panel B) |
 | 09 | `09_calibration_grid.py` | the same curve over all 20 partition configurations |
 | 10 | `10_excluded_representativeness.py` | composition of the excluded gauges and the post-stratified slope (Table S16) |
+| 11 | `11_competing_scale_variables.py` | upstream link count and upstream total conduit length at the same folds and target as the count (Table S18) |
+| 12 | `12_slope_floor_sensitivity.py` | the slope floor for non-positive gradients: four floors and outright exclusion (Table S19) |
 
 Steps 02 and 04 also write the fold structure used everywhere else, which is why later steps read
 `derived/p4_cv_foldref*.csv` rather than recomputing a partition.
+
+Both new steps re-derive the partition inside the script with the same call as step 04
+(`kmeans2(..., minit="points", seed=0)` on bound-node coordinates), so that the k-means blocking is
+identical to the one in Table 2; the count row of step 11 reproduces Table 2, panel C to four
+decimals, which is the check that the partition and the fold-consistent outcome are the same.
 
 ## Notes on the estimators
 
@@ -81,11 +88,13 @@ the fits are bit-reproducible.
 
 ## Coverage and known gaps
 
-Steps 01-10 reproduce the main models, the block cross-validation, the jackknife and permutation
-routines, the paired bootstrap and the calibration curve. Two analyses reported in the paper are not
-in this archive: the ridge comparison of Table 2, panel E, and the DEM-based topographic check of
-Supplementary Material S7 (which depends on the 5 m elevation and infiltration rasters of the same
-Zenodo record). Their numbers are reported in full in the manuscript and its supplement.
+Steps 01-12 reproduce the main models, the block cross-validation, the jackknife and permutation
+routines, the paired bootstrap, the calibration curve, the two competing size variables and the
+slope-floor sensitivity. Two analyses reported in the paper are not in this archive: the ridge
+comparison now in Supplementary Material Table S17 (the original Table 2, panel E), and the DEM-based
+topographic check of Supplementary Material S7 (which depends on the 5 m elevation and infiltration
+rasters of the same Zenodo record). Their numbers are reported in full in the manuscript and its
+supplement.
 
 ## License
 
